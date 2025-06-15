@@ -11,6 +11,9 @@ a{
 ul{
     list-style: none;
 }
+button {
+    cursor: pointer;
+}
 .header-navigation {
     font-weight: 500;
     font-size: 16px;
