@@ -1,7 +1,7 @@
 body{
     font-family: "Roboto", "Helvetica Neue", sans-serif;
     color: #434455;
-    background-color:#fff;
+    background-color:#ffffff;
 }
 
 a{
@@ -59,8 +59,9 @@ color:#2e2f42;
     font-weight: 700;
     font-size: 56px;
     line-height: 107%;
-    letter-spacing: 0.02em; 
-    color:#fff;
+    letter-spacing: 0.02em;
+    text-align: center; 
+    color:#ffffff;
 }
 
 .button{
@@ -73,7 +74,9 @@ color:#2e2f42;
     background-color:#4d5ae5;
 }
 
-.button:hover,
+.button:hover{
+    background-color: #404bbf;
+}
 .button:active{
     background-color:#404bbf;
 }
@@ -99,6 +102,7 @@ color:#2e2f42;
     color:#2e2f42;
 }
 
+
 .benefits-subtitle-text,
 .team-subtitle-text,
 .portfolio-subtitle-text{
@@ -106,12 +110,17 @@ color:#2e2f42;
     letter-spacing: 0.02em;
     color:#434455;
 }
-
+.team{
+    background-color:#f4f4fd;
+}
+.team-list-item{
+    background-color: #ffffff;
+}
 .footer, 
 .main{
     background-color:#2e2f42;
-
 }
+
 .footer-logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
