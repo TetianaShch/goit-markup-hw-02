@@ -1,5 +1,5 @@
 body{
-    font-family: "Roboto", "Helvetica Neue", sans-serif;
+    font-family:'Roboto', sans-serif;
     color: #434455;
     background-color:#ffffff;
 }
@@ -14,7 +14,6 @@ ul{
 
 .header-navigation {
     font-weight: 500;
-    font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #2e2f42;
@@ -44,15 +43,18 @@ ul{
 color:#2e2f42;
 }
 
-.header-contacts-email,
-.header-contacts-phone{
+.address{
+    font-style: normal;
     color: #434455;
-    line-height: 150%;
-    letter-spacing: 0.02em;
 }
-.header-contacts-email:hover,
-.header-contacts-phone:hover{
-    color:#404bbf;
+
+.address-contacts a{
+    color:#434455;
+}
+
+.address-contacts a:hover,
+.address-contacts a:active{
+color: #404bbf;
 }
 
 .main-title{
@@ -65,13 +67,15 @@ color:#2e2f42;
 }
 
 .button{
-    font-family: "Roboto", "Helvetica Neue", sans-serif;
     font-weight: 500;
     line-height: 150%;
     letter-spacing: 0.04em;
     cursor: pointer;
-    color:#fff;
+    color:#ffffff;
     background-color:#4d5ae5;
+    border-radius: 4px;
+    width: 169px;
+    height: 56px;
 }
 
 .button:hover{
@@ -136,8 +140,6 @@ color:#2e2f42;
 }
 
 .footer-logo-text{
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
     color:#f4f4fd;
