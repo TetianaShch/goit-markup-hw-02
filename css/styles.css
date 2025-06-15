@@ -18,15 +18,15 @@ ul{
     letter-spacing: 0.02em;
     color:#2e2f42;
 }
-.header-navigation-list-item a{
+.header-navigation-list a{
     font-weight: 500;
     color:#2e2f42;
 }
 
-.header-navigation-list-item a:hover{
+.header-navigation-list a:hover{
     color: #404bbf; 
 }
-.header-navigation-list-item a:focus{
+.header-navigation-list a:focus{
     color:#404bbf;
 }
 
