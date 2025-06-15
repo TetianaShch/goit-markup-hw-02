@@ -24,7 +24,7 @@ ul{
 }
 
 .header-navigation-list-item:hover,
-.header-navigation-list-item:active{
+.header-navigation-list-item:focus{
     color:#404bbf;
 }
 
@@ -55,7 +55,7 @@ color:#2e2f42;
 }
 
 .address-contacts a:hover,
-.address-contacts a:active{
+.address-contacts a:focus{
 color:#404bbf;
 }
 
